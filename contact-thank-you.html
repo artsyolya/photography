@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/PNGs/camera-icon-tab.png">
-    <link rel="stylesheet" href="../w3stylesheet.css">
-    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="w3stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka the Great">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Slab">
@@ -19,17 +19,22 @@
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card">
-	<div id="mobile-logo" class="w3-bar-item w3-container w3-white w3-margin-left-64" style="padding:0">
+	<div id="mobile-logo" class="w3-bar-item w3-container w3-white logo-pad" style="padding:0">
 		<a href="index.html" style="text-decoration:none">
-		<h3 class="logo-top">Olga Sago</h3>
-		<h4 class="logo-bottom">PHOTOGRAPHY</h4>		
+		<h3 class="logo-top">Olga Sago Photography</h3>
         </a>
     </div>
 	
-    <a class="w3-bar-item w3-button w3-padding-24 w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars fa-2x"></i></a>
+    <a class="w3-bar-item w3-button menu-padding w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars fa-2x"></i></a>
       
-	<div class="w3-dropdown-hover w3-hide-small">
-      <a href="index.html#portfolio"><button class="w3-button w3-padding-24" title="Portfolio">Portfolio<i class="fa fa-caret-down"></i></button></a>     
+    <a href="https://facebook.com/OlgaSagoPhotography/" target="_blank"><em class="fa fa-facebook-official w3-hover-opacity fb-padding w3-xlarge w3-right w3-hide-small"></em></a> 
+	<a href="https://instagram.com/olgas.photos/" target="_blank"><em class="fa fa-instagram w3-hover-opacity insta-padding w3-xlarge w3-right w3-hide-small"></em></a>
+      
+    <a href="#" class="menu-txt w3-bar-item w3-button menu-padding w3-hide-small w3-right">Contact</a>
+    <a href="about.html" class="menu-txt w3-bar-item w3-button menu-padding w3-hide-small w3-right">About</a>
+    <a href="published-work.html" class="menu-txt w3-bar-item w3-button menu-padding w3-hide-small w3-right">Published Work</a>
+	<div class="menu-txt w3-dropdown-hover w3-hide-small w3-right">
+      <a href="index.html#portfolio"><button class="w3-button menu-padding" title="Portfolio">Portfolio<i class="fa fa-caret-down menu-arrow"></i></button></a>   
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="portfolio/elopements.html" class="w3-bar-item w3-button">Elopements</a>
         <a href="portfolio/maternity-and-new-born.html" class="w3-bar-item w3-button">Maternity & New Born</a>
@@ -38,18 +43,12 @@
 		<a href="portfolio/events.html" class="w3-bar-item w3-button">Events</a>
 		<a href="portfolio/nature-and-travel.html" class="w3-bar-item w3-button">Nature & Travel</a>
       </div>
-    </div>
-	<a href="published-work.html" class="w3-bar-item w3-button w3-padding-24 w3-hide-small">Published Work</a>
-	<a href="about.html" class="w3-bar-item w3-button w3-padding-24 w3-hide-small">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-24 w3-hide-small">Contact</a>
-	
-	<a href="https://facebook.com/OlgaSagoPhotography/" target="_blank"><em class="fa fa-facebook-official w3-hover-opacity w3-padding-16-24 w3-xlarge w3-right w3-hide-small"></em></a> 
-	<a href="https://instagram.com/olgas.photos/" target="_blank"><em class="fa fa-instagram w3-hover-opacity insta-padding w3-xlarge w3-right w3-hide-small"></em></a>
+    </div>	
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:73px">
+<div id="navDemo" class="menu-txt w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top contentStart">
 	<a href="index.html#portfolio" class="w3-bar-item w3-button w3-center" onclick="myFunction()">Portfolio</a>
 	<a href="published-work.html" class="w3-bar-item w3-button w3-center" onclick="myFunction()">Published Work</a>
 	<a href="#" class="w3-bar-item w3-button w3-center" onclick="myFunction()">About</a>
