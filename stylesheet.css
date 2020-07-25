@@ -134,7 +134,7 @@ footer { margin-bottom:0; color: #000; }
     .contentStart { margin-top: 58px; }
     .portfolioText { font-size: 30px; }
     .aboutText { font-size: 16px; }
-    .p-txt { font-size: 15px; }
+    .p-txt { font-size: 16px; }
     .no-pad-mobile { padding-bottom: 0!important; }
 }
 @media (max-width: 320px) {
