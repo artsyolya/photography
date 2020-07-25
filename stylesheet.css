@@ -15,16 +15,10 @@ footer { margin-bottom:0; color: #000; }
 	margin-top:5px;
     margin-bottom: 0;
 }
+.logo-pad { margin-left: 64px; }
 .logo-top {
 	font-family:'Fredericka the Great';
 	font-size:30px;
-	margin:0;
-	padding:0;
-}
-.logo-bottom {
-	font-family:'Josefin Slab';
-    text-transform: uppercase;
-	font-size:19px;
 	margin:0;
 	padding:0;
 }
@@ -32,7 +26,7 @@ footer { margin-bottom:0; color: #000; }
     font-family:'Josefin Slab';
 	font-size:18px;
 }
-.menu-padding { padding: 14px!important; }
+.menu-padding { padding: 16px 14px 14px 14px!important; }
 .menu-arrow { padding-left: 10px; }
 .linkedin-padding { padding: 24px 10px 24px 70px; }
 .insta-padding { padding: 14px 7px 14px 35px; }
@@ -101,7 +95,7 @@ footer { margin-bottom:0; color: #000; }
 .body1, .body2 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.contentStart { margin-top: 58px; }
+.contentStart { margin-top: 59px; }
 	
 .photos {
   /* Prevent vertical gaps */
@@ -117,17 +111,19 @@ footer { margin-bottom:0; color: #000; }
 .photos-img { width: 100%!important; }
 .no-pad-mobile {}
 
-@media (min-width: 870px){
+@media (min-width: 769px and max-width: 870px){
+    .logo-pad { margin-left:0; }
     .linkedin-padding { padding: 24px 10px 24px 40px; }
-    .contentStart { margin-top: 58px; }
+    .contentStart { margin-top: 110px; }
 }
-@media (max-width: 768px){
+@media (min-width: 500px and max-width: 768px){
     .menu-padding { padding: 14px 12px 14px 12px!important; }
     .linkedin-padding { padding: 24px 10px 24px 12px; }
     /* .content-margin { margin-top:140px; } */
     .quote { font-size:25px; }
 }
 @media (max-width: 499px) {
+    .logo-pad { margin-left: 34px; }
     .logo-top { font-size: 23px; padding-top: 12px;}
     .photos {
         -moz-column-count:    1;
@@ -135,14 +131,14 @@ footer { margin-bottom:0; color: #000; }
         column-count:         1;
     }
     .quote { font-size:17px; }
-    .contentStart { margin-top: 60px; }
+    .contentStart { margin-top: 58px; }
     .portfolioText { font-size: 30px; }
     .aboutText { font-size: 16px; }
     .p-txt { font-size: 15px; }
     .no-pad-mobile { padding-bottom: 0!important; }
 }
 @media (max-width: 320px) {
-    .logo-top { font-size: 20px; padding-top: 7px; }
+    .logo-top { font-size: 20px; padding-top: 8px; }
 }
 
 /* Portfolio page styling */
