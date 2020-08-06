@@ -20,7 +20,7 @@ footer { margin-bottom:0; color: #000; }
 	font-family:'Fredericka the Great';
 	font-size:30px;
 	margin:0;
-	padding:0;
+	padding-top:5px;
 }
 .menu-txt {
     font-family:'Josefin Slab';
