@@ -1,6 +1,6 @@
 Hello! 
 
-Welcome to the repository for my photography website, which I have set-up as a subdomain of my professional portfolio website. I am continously working on improving both. The repository links up with my main domain as a subdomain --> https://www.photos.olgasago.com. The main domain for my professional portfolio website is https://www.olgasago.com
+Welcome to the repository for the now previous version of my photography website.
 
 On the photography website, you will find the following pages:
   - Portfolio
